@@ -1,0 +1,11 @@
+<h1>Create Course</h1>
+<%= form_for(@course) do |f| %>
+  <strong><%= f.label :subject %>:</strong>
+  <%= f.text_field :subject %>
+  <br>
+  <br>
+  <strong><%= f.label :readme %>:</strong>
+  <%= f.text_area :readme %><br>
+  <br>
+  <%= f.submit %>
+<% end %>

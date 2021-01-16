@@ -1,0 +1,7 @@
+<h1>Courses</h1>
+<% @courses.each do |course| %>
+  <h2><%= course.subject %></h2>
+  <p><%= course.readme %><p>
+  <%= button_to "Edit", edit_course_path(course.id), method: :get %>
+<% end %>
+<br>

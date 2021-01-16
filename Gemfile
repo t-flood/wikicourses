@@ -5,6 +5,8 @@ ruby '2.7.1'
 
 gem 'wikipedia-client', '~> 1.5'
 
+gem 'bootstrap', '~> 5.0.0.beta1'
+
 gem 'pry', '~> 0.13.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
